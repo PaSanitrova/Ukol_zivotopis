@@ -1,3 +1,144 @@
+/*h1{
+    color: black;
+    background-color: azure;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+h2{
+    color:darkblue;
+    text-align: center;
+}
+img {
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+}
+section{
+    background-color:#f7feff;
+    padding: 20px 15%;
+}
+.omne{
+    padding: 00px 80px 20px 80px;
+    overflow: auto;
+    float: left;
+}*/
+body{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+body ol{
+    list-style-type: circle;
+}
+body p{
+    margin: 3px;
+}
+
+header{
+    background-color: #faedeb;
+    padding: 20px;
+    text-align: center;
+    margin:0;
+}
+
 h1{
-    color: blue;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+h3{
+    font-size: 22px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h4{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.omne{
+    background-color: #faedeb;
+}
+
+.omne a{
+    color:#641306;
+}
+.kontakt{
+    text-align: left;
+    clear: both;
+    
+}
+
+.kontakt p{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 30px 20px 80px;
+}
+
+section{
+    padding: 20px 80px;
+    margin: 0;
+}
+
+.praxe{
+    background-color: #9b5145;
+    color: #faedeb;
+}
+.praxe h3{
+    margin-bottom: 0;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.praxe ul{
+    font-style: italic;
+    margin-top: 0;
+    padding-top: 0;
+}
+.praxe p{
+    margin-bottom: 8px;
+}
+
+.vzdelani{
+    background-color: #faedeb;
+}
+
+.doplnujiciinfo{
+    font-style: italic;
+}
+
+.konzervator,
+.OU,
+.zajmy{
+    padding: 0 50px;
+}
+
+.dovednostiazajmy{
+    text-align: left;
+    color: #faedeb;
+    padding:0;
+
+}
+.doved_zajmy{
+    background-color: #9b5145;
+}
+.doved_zajmy h2{
+    margin: 0;
+}
+
+.paticka{
+    background-color: #faedeb;
+    padding: 20px 0;
+    text-align: center;
 }
