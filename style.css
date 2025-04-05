@@ -28,6 +28,7 @@ body{
     margin: 0;
     font-size: 18px;
     line-height: 1.4;
+    font-family: "Gelasio", serif;
 }
 body ol{
     list-style-type: circle;
@@ -41,6 +42,7 @@ header{
     padding: 20px;
     text-align: center;
     margin:0;
+    border-bottom: 5px solid #9b5145;
 }
 
 h1{
@@ -57,13 +59,41 @@ h3{
     margin-bottom: 0;
     padding-bottom: 0;
 }
+h1, h2, h3{
+    font-family: "Limelight", sans-serif;
+}
 h4{
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
+.menu{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #9b5145;
+
+}
+.menu li{
+    display:inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    color:#faedeb;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #641306;
+}
+
 .omne{
     background-color: #faedeb;
+    margin: 0;
 }
 
 .omne a{
@@ -71,8 +101,8 @@ h4{
 }
 .kontakt{
     text-align: left;
-    clear: both;
-    
+    clear: both; 
+    border-top: 5px solid #9b5145; 
 }
 
 .kontakt p{
@@ -112,6 +142,7 @@ section{
 
 .vzdelani{
     background-color: #faedeb;
+    
 }
 
 .doplnujiciinfo{
@@ -119,26 +150,51 @@ section{
 }
 
 .konzervator,
-.OU,
+.OU
+{
+    padding: 0 50px;
+    border-left: 2px solid #9b5145;
+}
+
+.gympl{
+    padding: 0 50px; 
+}
+
+.skoly{
+    margin-bottom: 20px;
+}
+
+.jazyk{
+    border-top: 5px solid #9b5145;
+}
+
 .zajmy{
     padding: 0 50px;
 }
 
-.dovednostiazajmy{
+/*.dovednostiazajmy{
     text-align: left;
     color: #faedeb;
     padding:0;
+}*/
 
-}
-.doved_zajmy{
+.dovednosti{
     background-color: #9b5145;
+    color: #faedeb;
+    padding: 0 80px 20px 80px;
 }
-.doved_zajmy h2{
+.doved h2,
+.konicky h2{
     margin: 0;
+}
+
+.konicky{
+    background-color: #faedeb;
 }
 
 .paticka{
     background-color: #faedeb;
     padding: 20px 0;
     text-align: center;
+    border-top: 5px solid #9b5145;
 }
