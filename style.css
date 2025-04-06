@@ -1,29 +1,3 @@
-/*h1{
-    color: black;
-    background-color: azure;
-    text-align: center;
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-h2{
-    color:darkblue;
-    text-align: center;
-}
-img {
-    height: 250px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 40px;
-}
-section{
-    background-color:#f7feff;
-    padding: 20px 15%;
-}
-.omne{
-    padding: 00px 80px 20px 80px;
-    overflow: auto;
-    float: left;
-}*/
 body{
     margin: 0;
     font-size: 18px;
@@ -61,6 +35,7 @@ h3{
 }
 h1, h2, h3{
     font-family: "Limelight", sans-serif;
+    color: black;
 }
 h4{
     margin-bottom: 0;
@@ -110,7 +85,7 @@ h4{
     padding: 0;
 }
 
-img {
+.mojefotka {
     height: 200px;
     border-radius: 50%;
     float: left;
@@ -123,12 +98,12 @@ section{
 }
 
 .praxe{
-    background-color: #9b5145;
-    color: #faedeb;
+    background-color: #faedeb;
+    border-top: 5px solid #9b5145;
 }
 .praxe h3{
     margin-bottom: 0;
-    text-decoration: underline;
+
     font-size: 22px;
 }
 .praxe ul{
@@ -142,7 +117,15 @@ section{
 
 .vzdelani{
     background-color: #faedeb;
-    
+    border-top: 5px solid #9b5145; 
+    margin-bottom: 0; 
+}
+
+.certifikat{
+    float: right;
+    border-radius: 8px;
+    width: 400px;
+    margin-right: 100px;
 }
 
 .doplnujiciinfo{
@@ -160,11 +143,29 @@ section{
     padding: 0 50px; 
 }
 
-.skoly{
-    margin-bottom: 20px;
+.skoly tr{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.jazyk{
+.dovednosti{
+    background-color: #faedeb;
+    padding: 0 80px 20px 80px;
+    margin-top: 0;
+    border-top: 5px solid #9b5145;
+}   
+
+.dovednosti h2{
+    
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.konicky{
+    text-align: center;
+    background-color: #faedeb;
     border-top: 5px solid #9b5145;
 }
 
@@ -172,29 +173,9 @@ section{
     padding: 0 50px;
 }
 
-/*.dovednostiazajmy{
-    text-align: left;
-    color: #faedeb;
-    padding:0;
-}*/
-
-.dovednosti{
-    background-color: #9b5145;
-    color: #faedeb;
-    padding: 0 80px 20px 80px;
-}
-.doved h2,
-.konicky h2{
-    margin: 0;
-}
-
-.konicky{
-    background-color: #faedeb;
-}
-
 .paticka{
-    background-color: #faedeb;
+    background-color: #9b5145;
+    color:#faedeb;
     padding: 20px 0;
     text-align: center;
-    border-top: 5px solid #9b5145;
 }
